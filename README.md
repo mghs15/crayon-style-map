@@ -3,7 +3,9 @@
 
 https://mghs15.github.io/crayon-style-map/
 
-## reference
+![くれよん地図](https://user-images.githubusercontent.com/40787295/233097542-3fdffa40-4722-4a89-b64e-da6736b4a0b5.png)
 
-https://docs.mapbox.com/mapbox-gl-js/style-spec/
-https://github.com/gsi-cyberjapan/optimal_bvmap/
+
+## reference
+* https://docs.mapbox.com/mapbox-gl-js/style-spec/
+* https://github.com/gsi-cyberjapan/optimal_bvmap/
