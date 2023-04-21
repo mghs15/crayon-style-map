@@ -10,7 +10,7 @@
       "source-layer": "Cstline",
       "layout": {},
       "paint": {
-        "line-width": 6,
+        "line-width": 8,
         "line-opacity": 1,
         "line-color": "#0000FF",
         "line-pattern": "sky"
@@ -23,7 +23,7 @@
       "source-layer": "WL",
       "layout": {},
       "paint": {
-        "line-width": 6,
+        "line-width": 8,
         "line-opacity": 1,
         "line-color": "#0000FF",
         "line-pattern": "sky"
@@ -36,7 +36,7 @@
       "source-layer": "WA",
       "layout": {},
       "paint": {
-        "line-width": 6,
+        "line-width": 8,
         "line-opacity": 0.4,
         "line-color": "#0000FF",
         "line-pattern": "sky"
@@ -88,7 +88,7 @@
       "source-layer": "AdmBdry",
       "layout": {},
       "paint": {
-        "line-width": 6,
+        "line-width": 8,
         "line-opacity": 1,
         "line-color": "#0000FF",
         "line-pattern": "purple"
@@ -112,7 +112,7 @@
       "source-layer": "BldA",
       "layout": {},
       "paint": {
-        "line-width": 6,
+        "line-width": 8,
         "line-opacity": 1,
         "line-color": "#0000FF",
         "line-pattern": "cream"
@@ -126,9 +126,11 @@
       "source": "v",
       "id": "test1233253436454",
       "source-layer": "RdCL",
-      "layout": {},
+      "layout": {
+        "line-sort-key": ["get", "vt_lvorder"]
+      },
       "paint": {
-        "line-width": 6,
+        "line-width": 8,
         "line-opacity": 1,
         "line-color": "#0000FF",
         "line-pattern": [
@@ -163,7 +165,7 @@
       "source-layer": "RailCL",
       "layout": {},
       "paint": {
-        "line-width": 6,
+        "line-width": 8,
         "line-opacity": 1,
         "line-color": "#0000FF",
         "line-pattern": "gray"
@@ -177,7 +179,7 @@
       "layout": {
       },
       "paint": {
-        "line-width": 2,
+        "line-width": 3,
         "line-opacity": 1,
         "line-color": "#FFFFFF",
         "line-dasharray": [ 3, 3 ]
@@ -191,7 +193,7 @@
       "filter": ["==", [ "get", "vt_sngldbl" ], "駅部分"],
       "layout": {},
       "paint": {
-        "line-width": 8,
+        "line-width": 10,
         "line-opacity": 1,
         "line-color": "#0000FF",
         "line-pattern": "black"
