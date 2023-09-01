@@ -1,6 +1,12 @@
 {"version":8,"name":"gsimapvector","glyphs":"https://gsi-cyberjapan.github.io/optimal_bvmap/glyphs/{fontstack}/{range}.pbf",
 "sprite":"https://gsi-cyberjapan.github.io/optimal_bvmap/sprite/std",
-"sources":{"v":{"type":"vector","minzoom":0,"maxzoom":16,"tiles":["https://cyberjapandata.gsi.go.jp/xyz/optimal_bvmap-v1/{z}/{x}/{y}.pbf"],"attribution":"国土地理院最適化ベクトルタイル(標準地図風スタイル)"}},
+"sources":{
+  "v":{
+    "type":"vector","minzoom":0,"maxzoom":16,
+    "tiles":["pmtiles://https://cyberjapandata.gsi.go.jp/xyz/optimal_bvmap-v1/optimal_bvmap-v1.pmtiles/{z}/{x}/{y}"],
+    "attribution":"国土地理院最適化ベクトルタイル"
+  }
+},
 "layers":[
  
     {
