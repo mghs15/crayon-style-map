@@ -1,5 +1,5 @@
 {"version":8,"name":"gsimapvector","glyphs":"https://gsi-cyberjapan.github.io/optimal_bvmap/glyphs/{fontstack}/{range}.pbf",
-"sprite":"https://gsi-cyberjapan.github.io/optimal_bvmap/sprite/std",
+"sprite": "https://gsi-cyberjapan.github.io/optimal_bvmap/sprite/std",
 "sources":{
   "v":{
     "type":"vector","minzoom":0,"maxzoom":16,
@@ -10,6 +10,26 @@
 "layers":[
  
     {
+      "type": "background",
+      "id": "test12fewwfsss",
+      "maxzoom": 8,
+      "layout": {},
+      "paint": {
+        "background-color": "#EEEEFF",
+        "background-pattern": "crayon/sky-fill"
+      }
+    },
+    {
+      "id": "行政区画",
+      "type": "fill",
+      "source": "v",
+      "source-layer": "AdmArea",
+      "paint": {
+        "fill-color": "#FFFFFF"
+      }
+    },
+        
+    {
       "type": "line",
       "source": "v",
       "id": "test12354dwdwwsaq",
@@ -19,7 +39,7 @@
         "line-width": 8,
         "line-opacity": 1,
         "line-color": "#0000FF",
-        "line-pattern": "sky"
+        "line-pattern": "crayon/sky"
       }
     },
     {
@@ -32,7 +52,7 @@
         "line-width": 8,
         "line-opacity": 1,
         "line-color": "#0000FF",
-        "line-pattern": "sky"
+        "line-pattern": "crayon/sky"
       }
     },
     {
@@ -45,7 +65,7 @@
         "line-width": 8,
         "line-opacity": 0.4,
         "line-color": "#0000FF",
-        "line-pattern": "sky"
+        "line-pattern": "crayon/sky"
       }
     },
     {
@@ -57,7 +77,7 @@
       "layout": {},
       "paint": {
         "fill-opacity": 1,
-        "fill-pattern": "sky-fill"
+        "fill-pattern": "crayon/sky-fill"
       }
     },
     {
@@ -70,7 +90,7 @@
       "paint": {
         "fill-opacity": 1,
         "fill-color": "#DDEEFF",
-        "fill-pattern": "sky-fill"
+        "fill-pattern": "crayon/sky-fill"
       }
     },
 
@@ -84,7 +104,7 @@
         "line-width": 4,
         "line-opacity": 0.2,
         "line-color": "#0000FF",
-        "line-pattern": "olive"
+        "line-pattern": "crayon/olive"
       }
     },    
     {
@@ -97,7 +117,7 @@
         "line-width": 8,
         "line-opacity": 1,
         "line-color": "#0000FF",
-        "line-pattern": "purple"
+        "line-pattern": "crayon/purple"
       }
     },
     
@@ -121,7 +141,7 @@
         "line-width": 8,
         "line-opacity": 1,
         "line-color": "#0000FF",
-        "line-pattern": "cream"
+        "line-pattern": "crayon/cream"
       }
     },
     
@@ -149,18 +169,18 @@
               "国道",
               "主要道路"
           ],
-          "pink",
+          "crayon/pink",
           "都道府県道",
-          "orange",
+          "crayon/orange",
           "市区町村道等",
-          "lightgray",
+          "crayon/lightgray",
           "高速自動車国道等",
-          "green",
+          "crayon/green",
           "その他",
-          "lightgray",
+          "crayon/lightgray",
           "不明",
-          "lightgray",
-          "lightgray"
+          "crayon/lightgray",
+          "crayon/lightgray"
         ]
       }
     },
@@ -174,7 +194,7 @@
         "line-width": 8,
         "line-opacity": 1,
         "line-color": "#0000FF",
-        "line-pattern": "gray"
+        "line-pattern": "crayon/gray"
       }
     },
     {
@@ -202,7 +222,7 @@
         "line-width": 10,
         "line-opacity": 1,
         "line-color": "#0000FF",
-        "line-pattern": "black"
+        "line-pattern": "crayon/black"
       }
     }
 
