@@ -147,40 +147,15 @@ map.addControl(new maplibregl.AttributionControl({compact: true}), 'top-right');
 
 map.showTileBoundaries = false;
 
-/*
-map.on('load', () => {
-  
-  const crayonPatterns = [
-    "black",
-    "blue",
-    "brown",
-    "crayon-blue",
-    "crayons",
-    "gray",
-    "green",
-    "lightgray",
-    "orange",
-    "pink",
-    "sky"
-  ];
-  
-  crayonPatterns.forEach( crayon => {
-    map.loadImage(`./crayon/${crayon}.png`, (error, image) => {
-      if (error) throw error;
-      if (!map.hasImage(crayon)) map.addImage(crayon, image);
-    });
-  });
-  
-});
-*/
-
 map.on('styleimagemissing', (e) => {
   
-  const crayon = e.id;
-
-  map.loadImage(`./crayon/${crayon}.png`, (error, image) => {
+  const name = e.id;
+  
+  console.log(name);
+  
+  map.loadImage(`./${name}.png`, (error, image) => {
     if(error) throw error;
-    if(!map.hasImage(crayon)) map.addImage(crayon, image);
+    if(!map.hasImage(name)) map.addImage(name, image);
   });
   
 });
