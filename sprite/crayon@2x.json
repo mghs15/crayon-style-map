@@ -239,18 +239,10 @@
     "pixelRatio": 2,
     "visible": true
   },
-  "cross": {
+  "alert": {
     "width": 77,
     "height": 77,
     "x": 476,
-    "y": 239,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "diamond": {
-    "width": 77,
-    "height": 77,
-    "x": 555,
     "y": 239,
     "pixelRatio": 2,
     "visible": true
@@ -419,6 +411,22 @@
     "width": 77,
     "height": 77,
     "x": 318,
+    "y": 476,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "標高点（測点）": {
+    "width": 77,
+    "height": 77,
+    "x": 397,
+    "y": 476,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "水深-20": {
+    "width": 77,
+    "height": 77,
+    "x": 476,
     "y": 476,
     "pixelRatio": 2,
     "visible": true
