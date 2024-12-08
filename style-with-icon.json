@@ -9,7 +9,6 @@
 },
 "layers":[
  
- 
     {
       "type": "background",
       "id": "background",
@@ -17,7 +16,7 @@
       "layout": {},
       "paint": {
         "background-color": "#EEEEFF",
-        "background-pattern": "crayon/sky-fill"
+        "background-pattern": "crayon/sky-180,200,255-fill"
       }
     },
     {
@@ -39,8 +38,8 @@
       "paint": {
         "line-width": 8,
         "line-opacity": 1,
-        "line-color": "#0000FF",
-        "line-pattern": "crayon/sky"
+        "line-color": "#EEEEEE",
+        "line-pattern": "crayon/sky-180,200,255-line"
       }
     },
     {
@@ -52,8 +51,8 @@
       "paint": {
         "line-width": 8,
         "line-opacity": 1,
-        "line-color": "#0000FF",
-        "line-pattern": "crayon/sky"
+        "line-color": "#EEEEEE",
+        "line-pattern": "crayon/sky-180,200,255-line"
       }
     },
     {
@@ -65,9 +64,9 @@
       "paint": {
         "line-width": 4,
         "line-opacity": 1,
-        "line-color": "#0000FF",
+        "line-color": "#EEEEEE",
         "line-offset": -2,
-        "line-pattern": "crayon/sky"
+        "line-pattern": "crayon/sky-180,200,255-line"
       }
     },
     {
@@ -79,7 +78,7 @@
       "layout": {},
       "paint": {
         "fill-opacity": 1,
-        "fill-pattern": "crayon/lightblue-fill"
+        "fill-pattern": "crayon/lightblue-190,210,255-fill"
       }
     },
     {
@@ -92,7 +91,7 @@
       "paint": {
         "fill-opacity": 1,
         "fill-color": "#DDEEFF",
-        "fill-pattern": "crayon/lightblue-fill"
+        "fill-pattern": "crayon/lightblue-190,210,255-fill"
       }
     },
 
@@ -105,8 +104,8 @@
       "paint": {
         "line-width": 4,
         "line-opacity": 0.2,
-        "line-color": "#0000FF",
-        "line-pattern": "crayon/olive"
+        "line-color": "#EEEEEE",
+        "line-pattern": "crayon/brown-200,160,60-line"
       }
     },    
     {
@@ -118,8 +117,8 @@
       "paint": {
         "line-width": 8,
         "line-opacity": 1,
-        "line-color": "#0000FF",
-        "line-pattern": "crayon/purple"
+        "line-color": "#EEEEEE",
+        "line-pattern": "crayon/purple-68,0,128-dashline"
       }
     },
     
@@ -130,7 +129,7 @@
       "source-layer": "BldA",
       "layout": {},
       "paint": {
-        "fill-color": "#FFFFDD"
+        "fill-color": "rgb(255,230,190)"
       }
     },
     {
@@ -142,8 +141,8 @@
       "paint": {
         "line-width": 8,
         "line-opacity": 1,
-        "line-color": "#0000FF",
-        "line-pattern": "crayon/cream"
+        "line-color": "#EEEEEE",
+        "line-pattern": "crayon/cream-255,187,153-line"
       }
     },
     
@@ -160,7 +159,7 @@
       "paint": {
         "line-width": 8,
         "line-opacity": 1,
-        "line-color": "#0000FF",
+        "line-color": "#EEEEEE",
         "line-pattern": [
           "match",
           [
@@ -171,38 +170,38 @@
               "国道",
               "主要道路"
           ],
-          "crayon/pink",
+          "crayon/pink-235,130,120-line",
           "都道府県道",
-          "crayon/orange",
+          "crayon/orange-255,200,0-line",
           "市区町村道等",
-          "crayon/lightgray",
+          "crayon/lightgray-220,220,220-line",
           "高速自動車国道等",
-          "crayon/green",
+          "crayon/green-100,195,115-line",
           "その他",
-          "crayon/lightgray",
+          "crayon/lightgray-220,220,220-line",
           "不明",
-          "crayon/lightgray",
-          "crayon/lightgray"
+          "crayon/lightgray-220,220,220-line",
+          "crayon/lightgray-220,220,220-line"
         ]
       }
     },
     {
       "type": "line",
       "source": "v",
-      "id": "RailwayLine-Hatching",
+      "id": "RailwayLine",
       "source-layer": "RailCL",
       "layout": {},
       "paint": {
         "line-width": 8,
         "line-opacity": 1,
-        "line-color": "#0000FF",
-        "line-pattern": "crayon/gray"
+        "line-color": "#EEEEEE",
+        "line-pattern": "crayon/gray-100,100,100-line"
       }
     },
     {
       "type": "line",
       "source": "v",
-      "id": "RailwayLine",
+      "id": "RailwayLine-Hatching",
       "source-layer": "RailCL",
       "layout": {
       },
@@ -223,12 +222,10 @@
       "paint": {
         "line-width": 10,
         "line-opacity": 1,
-        "line-color": "#0000FF",
-        "line-pattern": "crayon/black"
+        "line-color": "#EEEEEE",
+        "line-pattern": "crayon/black-15,15,15-line"
       }
     },
-    
-    
     
 
     
