@@ -8,15 +8,14 @@
   }
 },
 "layers":[
- 
+
+
     {
       "type": "background",
       "id": "background",
-      "maxzoom": 8,
       "layout": {},
       "paint": {
-        "background-color": "#EEEEFF",
-        "background-pattern": "crayon/sky-180,200,255-fill"
+        "background-color": "#FFFFFF"
       }
     },
     {
@@ -39,7 +38,7 @@
         "line-width": 8,
         "line-opacity": 1,
         "line-color": "#EEEEEE",
-        "line-pattern": "crayon/sky-180,200,255-line"
+        "line-pattern": "crayon/sky-160,180,255-line"
       }
     },
     {
@@ -52,7 +51,7 @@
         "line-width": 8,
         "line-opacity": 1,
         "line-color": "#EEEEEE",
-        "line-pattern": "crayon/sky-180,200,255-line"
+        "line-pattern": "crayon/sky-160,180,255-line"
       }
     },
     {
@@ -66,7 +65,18 @@
         "line-opacity": 1,
         "line-color": "#EEEEEE",
         "line-offset": -2,
-        "line-pattern": "crayon/sky-180,200,255-line"
+        "line-pattern": "crayon/sky-160,180,255-line"
+      }
+    },
+    {
+      "type": "fill",
+      "source": "v",
+      "id": "WaterArea-Back",
+      "source-layer": "WA",
+      "layout": {},
+      "paint": {
+        "fill-opacity": 1,
+        "fill-color": "#FFFFFF"
       }
     },
     {
